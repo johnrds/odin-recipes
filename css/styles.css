@@ -1,15 +1,17 @@
 html,body{
-height:100%;
-max-width: 1200px;
-font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+width: 1200px;
+height: fit-content;
+overflow: auto;
+font-family: "Lucida Grande", "Lucida Sans", Tahoma, sans-serif;
 background-color: #ffffff;
 color: #222020;
 margin: 0px auto;
+
 }
 
 header h1 {
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: lighter;
     text-transform: uppercase;
     margin: 50px 0 100px;
@@ -17,11 +19,13 @@ header h1 {
 
 .container {
     width: 1200px;
-    height: auto;
+    height: 105%;
 }
 
 .recipe.block {
+    margin: 0 auto;
     height: 400px;
+    width: 1090px;
     clear: both;
     margin-bottom: 50px;
     border-radius: 10%;
@@ -47,7 +51,7 @@ header h1 {
 .recipe.even img {float: right;}
 
 .recipe.text {
-    width: 700px;
+    width: 600px;
     height: 400px;
     text-align: center;
 }
@@ -87,7 +91,7 @@ a:hover {
 .container-recipe{
     float: left;
     position: relative;
-    height: 95%;
+    height: 800px;
     width: 1200px; 
 }
 
