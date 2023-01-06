@@ -1,0 +1,85 @@
+body{
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+    background-color:#ffffff;
+    color: #000000;
+    margin: 0px auto;
+    max-width: 1200px;
+}
+
+header, header h1{
+text-align: center;
+font-size: 60px;
+font-weight: lighter;
+text-transform:uppercase;
+margin: 50px 0 100px 0;
+}
+
+.container{
+    margin: 0px;
+    width: 1200px;
+}
+
+.recipe.block{
+    height: 400px;
+    clear: both;
+    margin-bottom: 40px;
+    border-radius: 10%;
+    position: relative;
+}
+
+.recipe.block:hover{
+   background-color: rgba(25, 203, 235, 0.1);
+    border-radius: 10%;
+    transform: scale(1.05);
+}
+
+.recipe img{
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10%;
+    border: 1px solid #000;
+}
+
+.recipe.odd img{float:left;}
+
+.recipe.even img{float:right;}
+
+.recipe.text{
+    width: 600px;
+    height: 400px;
+    text-align: center;
+}
+
+.recipe.odd.text{float: right;}
+
+.recipe.even.text{float: left;}
+
+.recipe.text h4{
+    font-size: 35px;
+    margin: 20px auto;
+}
+
+.recipe.text p{
+    font-size: 25px;
+    text-align: left;
+}
+
+.recipe.odd .icon{
+    width: 200px;
+    font-size: 25px;
+    position: absolute;
+    bottom: 35px;
+    right: 200px;
+}
+
+.recipe.even .icon{
+    width: 200px;
+    font-size: 25px;
+    position: absolute;
+    bottom: 35px;
+    left: 200px;
+}
+
+a{color: #000;}
+a:hover{color: #0000ff;}
