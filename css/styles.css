@@ -1,25 +1,26 @@
-body{
+body {
     font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-    background-color:#ffffff;
-    color: #000000;
+    background-color: #ffffff;
+    color: #222020;
     margin: 0px auto;
     max-width: 1200px;
+    height: 100vh;
 }
 
-header, header h1{
-text-align: center;
-font-size: 60px;
-font-weight: lighter;
-text-transform:uppercase;
-margin: 50px 0 100px 0;
+header,
+header h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin: 5vh 0 10vh;
 }
 
-.container{
-    margin: 0px;
+.container {
     width: 1200px;
 }
 
-.recipe.block{
+.recipe.block {
     height: 400px;
     clear: both;
     margin-bottom: 40px;
@@ -27,13 +28,13 @@ margin: 50px 0 100px 0;
     position: relative;
 }
 
-.recipe.block:hover{
-   background-color: rgba(25, 203, 235, 0.1);
+.recipe.block:hover {
+    background-color: rgba(25, 203, 235, 0.1);
     border-radius: 10%;
     transform: scale(1.05);
 }
 
-.recipe img{
+.recipe img {
     width: 500px;
     height: 400px;
     object-fit: cover;
@@ -41,31 +42,39 @@ margin: 50px 0 100px 0;
     border: 1px solid #000;
 }
 
-.recipe.odd img{float:left;}
+.recipe.odd img {
+    float: left;
+}
 
-.recipe.even img{float:right;}
+.recipe.even img {
+    float: right;
+}
 
-.recipe.text{
+.recipe.text {
     width: 600px;
     height: 400px;
     text-align: center;
 }
 
-.recipe.odd.text{float: right;}
+.recipe.odd.text {
+    float: right;
+}
 
-.recipe.even.text{float: left;}
+.recipe.even.text {
+    float: left;
+}
 
-.recipe.text h4{
+.recipe.text h4 {
     font-size: 35px;
     margin: 20px auto;
 }
 
-.recipe.text p{
+.recipe.text p {
     font-size: 25px;
     text-align: left;
 }
 
-.recipe.odd .icon{
+.recipe.odd .icon {
     width: 200px;
     font-size: 25px;
     position: absolute;
@@ -73,7 +82,7 @@ margin: 50px 0 100px 0;
     right: 200px;
 }
 
-.recipe.even .icon{
+.recipe.even .icon {
     width: 200px;
     font-size: 25px;
     position: absolute;
@@ -81,5 +90,83 @@ margin: 50px 0 100px 0;
     left: 200px;
 }
 
-a{color: #000;}
-a:hover{color: #0000ff;}
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0000ff;
+}
+
+/* Recipes page*/
+
+.left.bar.block{
+float: left;
+position: absolute;
+height: 80vh;
+width: 450px;
+background-color: rgba(134, 209, 238, 0.192);
+border-radius: 7%;
+}
+
+.left.bar.block img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    position: relative;
+    left: 25px;
+    top: 25px;
+    border-radius: 5%;
+}
+
+.left.bar.block .left.bar.text{
+    position: relative;
+    left: 25px;
+    top: 25px;
+    font-size: 25px;
+}
+
+.left.bar ul{
+    list-style-type: none;
+}
+
+.right.bar{
+float: right;
+width: 700px;
+background-color: rgba(134, 209, 238, 0.192);
+border-radius: 7%;
+}
+
+.right.bar h4{
+    font-size: 30px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+
+.right.bar li{
+    font-size: 20px;
+}
+
+.right.bottom.bar{
+    position: relative;
+    top: 5vh;
+    height: 45vh;
+}
+
+.right.top.bar{
+    height: 30vh;
+}
+
+#button-home{
+    clear: both;
+    font-size: 20px;
+    height: 20px;
+    width: 200px;
+    padding: 0.5vh;
+    border-radius: 10%;
+    position: absolute;
+    bottom: 1vh;
+    margin-left: 10vh;
+}
