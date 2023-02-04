@@ -32,14 +32,27 @@ body{
     gap: 100px;
     max-width: 1000px;
     margin: 0 auto;
+    padding-inline: 10px;
 }
 
 img{
-    height: 225px;
-    width: 225px;
+    height: 200px;
+    width: 200px;
     object-fit: cover; 
     border-radius: 10%; 
     border: 1px solid #000
+}
+
+@media (max-width: 780px) {
+    img{
+        height: 125px;
+        width: 125px;
+    }
+    
+    p,
+    li{
+        font-size: 14px;
+    }
 }
 
 .recipe-image{
@@ -70,11 +83,11 @@ a:focus-visible{
 /*---------- Homepage ----------*/
 
 .recipe-card{
-    box-shadow: 4px 4px 16px hsla(0, 0%, 0%, 0.06);
+    box-shadow: 6px 6px 20px hsla(0, 0%, 0%, 0.1);
     border-radius: 40px;
     display: flex;
     align-items: center;
-    max-width: 1000px;
+    width: 90%;
 }
 
 .recipe-card.even{
@@ -115,9 +128,15 @@ a:focus-visible{
 .upper-column{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     gap: 50px;
     width: 100%;
-    justify-content: space-between;
+}
+
+@media (max-width: 500px) {
+    .image.column{
+        width: 100%;
+    }
 }
 
 .bottom.column{
@@ -125,6 +144,7 @@ a:focus-visible{
     padding: 10px 0;
     flex: 1;
 }
+
 
 .image.column ul{
     padding: 0;
