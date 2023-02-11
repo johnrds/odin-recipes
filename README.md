@@ -1,6 +1,11 @@
 # Brazilian Nacional Recipes
+
+## About
 An HTML/CSS webpage created to show some of the brazilian nacional recipes.
 
-This was made as a part of The Odin Project curriculum, if you want to know more about TOP, visit https://www.theodinproject.com/about.
+## Links
+[View on GitHub Pages](https://johnrds.github.io/landing-page/)
 
-All the recipes can be found at: <https://www.bbcgoodfood.com/recipes/collection/brazilian-recipes>.
+This was made as a part of The Odin Project curriculum, [Click here](https://www.theodinproject.com/about) to know more about TOP.
+
+All the recipes can be found at [BBC Good Food](https://www.bbcgoodfood.com/recipes/collection/brazilian-recipes).
