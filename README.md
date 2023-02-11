@@ -4,7 +4,7 @@
 An HTML/CSS webpage created to show some of the brazilian nacional recipes.
 
 ## Links
-[View on GitHub Pages](https://johnrds.github.io/landing-page/)
+[View on GitHub Pages](https://johnrds.github.io/odin-recipes/)
 
 This was made as a part of The Odin Project curriculum, [Click here](https://www.theodinproject.com/about) to know more about TOP.
 
